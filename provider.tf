@@ -1,15 +1,15 @@
 terraform {
   required_providers {
     aws = {
-      source = "hashicorp/aws"
+      source  = "hashicorp/aws"
       version = "6.5.0"
     }
   }
 
-backend "s3" {
-    bucket = "exp-niha-backend"
-    key = "terraform/state-file"
-    region = "us-west-2" 
- } 
+  backend "s3" {
+    bucket = "exp-ha-backend"
+    key    = "terraform/state-file"
+    region = "us-east-1"
+  }
 }
 

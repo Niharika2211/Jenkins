@@ -1,3 +1,3 @@
- output "instance-info" {
-     value = module.jenkins.id
- }
+output "instance-info" {
+  value = module.jenkins.id
+}
