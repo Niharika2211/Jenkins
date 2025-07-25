@@ -6,11 +6,10 @@ terraform {
     }
   }
 
-
 backend "s3" {
-    bucket = "exp-ni-backend"
+    bucket = "exp-niha-backend"
     key = "terraform/state-file"
-    region = "us-west-2"
+    region = "us-west-2" 
  } 
 }
 

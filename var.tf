@@ -1,5 +1,5 @@
  variable "zone_name" {
-   type = "string"
+   type = string
    default = "bapatlas.cloud"
    description = "r53-hostname"
  }
